@@ -1,0 +1,16 @@
+<html>
+ 
+  <body ng-app="AddressBook">
+
+  	<div ng-controller="FindUser">
+  		User Id : <input type="text" name="id" ng-model="userId"><button ng-click="find">
+  		<br>
+  		User Name : {{user.name}} | User Email : {{user.email}} | User Telephone : {{user.telephone}}
+  	</div>
+
+
+	<script src="vendor/js/angular.js"></script>
+  	<script src="js/app.js"></script>
+
+  </body>
+</html>

@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+app.use('/addressBook', express.static('../frontend'));
+
 app.get('/', function (req, res) {
    res.send('Server is Running');
 
