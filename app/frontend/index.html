@@ -3,9 +3,10 @@
   <body ng-app="AddressBook">
 
   	<div ng-controller="FindUser">
-  		User Id : <input type="text" name="id" ng-model="userId"><button ng-click="find">
-  		<br>
-  		User Name : {{user.name}} | User Email : {{user.email}} | User Telephone : {{user.telephone}}
+  		User Id : <input type="text" name="id" ng-model="userId">
+  		<button name="find" ng-click="findUser()">Find</button>
+  		<br/><br/>
+  		User Name: {{user.name}} | User Email : {{user.email}} | User Telephone : {{user.telephone}} | User ID : {{user.id}}
   	</div>
 
 
