@@ -1,0 +1,1394 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'multer', '--save' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/user/Addressbook/app/backend/package.json
+5 warn package.json backend@1.0.0 No description
+6 warn package.json backend@1.0.0 No repository field.
+7 warn package.json backend@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/user/Addressbook/app/backend/node_modules/body-parser/package.json
+9 verbose installManyTop reading scoped package data from /Users/user/Addressbook/app/backend/node_modules/cookie-parser/package.json
+10 verbose installManyTop reading scoped package data from /Users/user/Addressbook/app/backend/node_modules/express/package.json
+11 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/package.json
+12 silly cache add args [ 'multer', null ]
+13 verbose cache add spec multer
+14 silly cache add parsed spec { raw: 'multer',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'multer',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed multer@*
+16 verbose addNamed "*" is a valid semver range for multer
+17 silly addNameRange { name: 'multer', range: '*', hasData: false }
+18 silly mapToRegistry name multer
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/multer
+22 verbose addNameRange registry:https://registry.npmjs.org/multer not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/multer
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 1:58:59 PM
+26 verbose request id 0507337abe4a39ce
+27 http request GET https://registry.npmjs.org/multer
+28 http 200 https://registry.npmjs.org/multer
+29 silly get cb [ 200,
+29 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly get     etag: '"3QJFD1TSW2DSSMUBDQLD9H04X"',
+29 silly get     'content-type': 'application/json',
+29 silly get     'cache-control': 'max-age=60',
+29 silly get     'content-length': '35221',
+29 silly get     'accept-ranges': 'bytes',
+29 silly get     date: 'Wed, 12 Aug 2015 08:29:00 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     age: '0',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-sin6927-SIN',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1439368140.530269,VS0,VE263',
+29 silly get     vary: 'Accept' } ]
+30 verbose get saving multer to /Users/user/.npm/registry.npmjs.org/multer/.cache.json
+31 silly addNameRange number 2 { name: 'multer', range: '*', hasData: true }
+32 silly addNameRange versions [ 'multer',
+32 silly addNameRange   [ '0.0.1',
+32 silly addNameRange     '0.0.2',
+32 silly addNameRange     '0.0.3',
+32 silly addNameRange     '0.0.4',
+32 silly addNameRange     '0.0.5',
+32 silly addNameRange     '0.0.6',
+32 silly addNameRange     '0.0.7',
+32 silly addNameRange     '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.1.2',
+32 silly addNameRange     '0.1.3',
+32 silly addNameRange     '0.1.4',
+32 silly addNameRange     '0.1.6',
+32 silly addNameRange     '0.1.7',
+32 silly addNameRange     '0.1.8',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.0.3' ] ]
+33 silly addNamed multer@1.0.3
+34 verbose addNamed "1.0.3" is a plain semver version for multer
+35 silly mapToRegistry name multer
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/multer
+39 verbose addRemoteTarball https://registry.npmjs.org/multer/-/multer-1.0.3.tgz not in flight; adding
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/multer/-/multer-1.0.3.tgz',
+40 verbose addRemoteTarball   '711fef5f94f1f2f0cbfe00224c584989cd776468' ]
+41 info retry fetch attempt 1 at 1:59:00 PM
+42 info attempt registry request try #1 at 1:59:00 PM
+43 http fetch GET https://registry.npmjs.org/multer/-/multer-1.0.3.tgz
+44 http fetch 200 https://registry.npmjs.org/multer/-/multer-1.0.3.tgz
+45 silly fetchAndShaCheck shasum 711fef5f94f1f2f0cbfe00224c584989cd776468
+46 verbose addTmpTarball /var/folders/f3/nkkz5jys48j01n7n91rlf4bw0000gp/T/npm-24594-e8a65fc9/registry.npmjs.org/multer/-/multer-1.0.3.tgz not in flight; adding
+47 verbose addTmpTarball already have metadata; skipping unpack for multer@1.0.3
+48 silly cache afterAdd multer@1.0.3
+49 verbose afterAdd /Users/user/.npm/multer/1.0.3/package/package.json not in flight; writing
+50 verbose afterAdd /Users/user/.npm/multer/1.0.3/package/package.json written
+51 silly install resolved [ { name: 'multer',
+51 silly install resolved     description: 'Middleware for handling `multipart/form-data`.',
+51 silly install resolved     version: '1.0.3',
+51 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+51 silly install resolved     license: 'MIT',
+51 silly install resolved     repository:
+51 silly install resolved      { type: 'git',
+51 silly install resolved        url: 'git+https://github.com/expressjs/multer.git' },
+51 silly install resolved     keywords:
+51 silly install resolved      [ 'form',
+51 silly install resolved        'post',
+51 silly install resolved        'multipart',
+51 silly install resolved        'form-data',
+51 silly install resolved        'formdata',
+51 silly install resolved        'express',
+51 silly install resolved        'middleware' ],
+51 silly install resolved     dependencies:
+51 silly install resolved      { 'append-field': '^0.1.0',
+51 silly install resolved        busboy: '^0.2.9',
+51 silly install resolved        'concat-stream': '^1.5.0',
+51 silly install resolved        mkdirp: '^0.5.1',
+51 silly install resolved        'object-assign': '^3.0.0',
+51 silly install resolved        'type-is': '^1.6.4',
+51 silly install resolved        xtend: '^4.0.0' },
+51 silly install resolved     devDependencies:
+51 silly install resolved      { express: '^4.13.1',
+51 silly install resolved        'form-data': '^1.0.0-rc1',
+51 silly install resolved        'fs-temp': '^0.1.2',
+51 silly install resolved        mocha: '^2.2.5',
+51 silly install resolved        rimraf: '^2.4.1',
+51 silly install resolved        standard: '^4.5.4',
+51 silly install resolved        'testdata-w3c-json-form': '^0.2.0' },
+51 silly install resolved     engines: { node: '>= 0.10.0' },
+51 silly install resolved     files: [ 'LICENSE', 'index.js', 'storage/', 'lib/' ],
+51 silly install resolved     scripts: { test: 'standard && mocha' },
+51 silly install resolved     gitHead: '73bfcffde672023cf2cbad0de9d87c35e5959c54',
+51 silly install resolved     bugs: { url: 'https://github.com/expressjs/multer/issues' },
+51 silly install resolved     homepage: 'https://github.com/expressjs/multer#readme',
+51 silly install resolved     _id: 'multer@1.0.3',
+51 silly install resolved     _shasum: '711fef5f94f1f2f0cbfe00224c584989cd776468',
+51 silly install resolved     _from: 'multer@*',
+51 silly install resolved     _npmVersion: '2.12.1',
+51 silly install resolved     _nodeVersion: '0.12.7',
+51 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+51 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+51 silly install resolved     dist:
+51 silly install resolved      { shasum: '711fef5f94f1f2f0cbfe00224c584989cd776468',
+51 silly install resolved        tarball: 'http://registry.npmjs.org/multer/-/multer-1.0.3.tgz' },
+51 silly install resolved     directories: {},
+51 silly install resolved     _resolved: 'https://registry.npmjs.org/multer/-/multer-1.0.3.tgz' } ]
+52 info install multer@1.0.3 into /Users/user/Addressbook/app/backend
+53 info installOne multer@1.0.3
+54 verbose installOne of multer to /Users/user/Addressbook/app/backend not in flight; installing
+55 verbose lock using /Users/user/.npm/_locks/multer-2c92d519008862e2.lock for /Users/user/Addressbook/app/backend/node_modules/multer
+56 silly install write writing multer 1.0.3 to /Users/user/Addressbook/app/backend/node_modules/multer
+57 verbose unbuild node_modules/multer
+58 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer is being purged from base /Users/user/Addressbook/app/backend
+59 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer
+60 verbose tar unpack /Users/user/.npm/multer/1.0.3/package.tgz
+61 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer
+62 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer is being purged
+63 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm extractEntry LICENSE
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm extractEntry CHANGELOG.md
+70 silly gunzTarPerm extractEntry lib/counter.js
+71 silly gunzTarPerm extractEntry lib/file-appender.js
+72 silly gunzTarPerm extractEntry lib/make-error.js
+73 silly gunzTarPerm extractEntry lib/make-middleware.js
+74 silly gunzTarPerm extractEntry lib/remove-uploaded-files.js
+75 silly gunzTarPerm extractEntry storage/disk.js
+76 silly gunzTarPerm extractEntry storage/memory.js
+77 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/package.json
+78 info preinstall multer@1.0.3
+79 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/package.json
+80 silly prepareForInstallMany adding append-field@^0.1.0 from multer dependencies
+81 silly prepareForInstallMany adding busboy@^0.2.9 from multer dependencies
+82 silly prepareForInstallMany adding concat-stream@^1.5.0 from multer dependencies
+83 silly prepareForInstallMany adding mkdirp@^0.5.1 from multer dependencies
+84 silly prepareForInstallMany adding object-assign@^3.0.0 from multer dependencies
+85 silly prepareForInstallMany adding type-is@^1.6.4 from multer dependencies
+86 silly prepareForInstallMany adding xtend@^4.0.0 from multer dependencies
+87 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/package.json
+88 silly cache add args [ 'busboy@^0.2.9', null ]
+89 verbose cache add spec busboy@^0.2.9
+90 silly cache add parsed spec { raw: 'busboy@^0.2.9',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'busboy',
+90 silly cache add   rawSpec: '^0.2.9',
+90 silly cache add   spec: '>=0.2.9 <0.3.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed busboy@>=0.2.9 <0.3.0
+92 verbose addNamed ">=0.2.9 <0.3.0" is a valid semver range for busboy
+93 silly addNameRange { name: 'busboy', range: '>=0.2.9 <0.3.0', hasData: false }
+94 silly mapToRegistry name busboy
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry uri https://registry.npmjs.org/busboy
+98 verbose addNameRange registry:https://registry.npmjs.org/busboy not in flight; fetching
+99 silly cache add args [ 'concat-stream@^1.5.0', null ]
+100 verbose cache add spec concat-stream@^1.5.0
+101 silly cache add parsed spec { raw: 'concat-stream@^1.5.0',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'concat-stream',
+101 silly cache add   rawSpec: '^1.5.0',
+101 silly cache add   spec: '>=1.5.0 <2.0.0',
+101 silly cache add   type: 'range' }
+102 silly addNamed concat-stream@>=1.5.0 <2.0.0
+103 verbose addNamed ">=1.5.0 <2.0.0" is a valid semver range for concat-stream
+104 silly addNameRange { name: 'concat-stream',
+104 silly addNameRange   range: '>=1.5.0 <2.0.0',
+104 silly addNameRange   hasData: false }
+105 silly mapToRegistry name concat-stream
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/concat-stream
+109 verbose addNameRange registry:https://registry.npmjs.org/concat-stream not in flight; fetching
+110 silly cache add args [ 'mkdirp@^0.5.1', null ]
+111 verbose cache add spec mkdirp@^0.5.1
+112 silly cache add parsed spec { raw: 'mkdirp@^0.5.1',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'mkdirp',
+112 silly cache add   rawSpec: '^0.5.1',
+112 silly cache add   spec: '>=0.5.1 <0.6.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed mkdirp@>=0.5.1 <0.6.0
+114 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for mkdirp
+115 silly addNameRange { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: false }
+116 silly mapToRegistry name mkdirp
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+120 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+121 silly cache add args [ 'object-assign@^3.0.0', null ]
+122 verbose cache add spec object-assign@^3.0.0
+123 silly cache add parsed spec { raw: 'object-assign@^3.0.0',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'object-assign',
+123 silly cache add   rawSpec: '^3.0.0',
+123 silly cache add   spec: '>=3.0.0 <4.0.0',
+123 silly cache add   type: 'range' }
+124 silly addNamed object-assign@>=3.0.0 <4.0.0
+125 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for object-assign
+126 silly addNameRange { name: 'object-assign',
+126 silly addNameRange   range: '>=3.0.0 <4.0.0',
+126 silly addNameRange   hasData: false }
+127 silly mapToRegistry name object-assign
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+131 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+132 silly cache add args [ 'type-is@^1.6.4', null ]
+133 verbose cache add spec type-is@^1.6.4
+134 silly cache add parsed spec { raw: 'type-is@^1.6.4',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'type-is',
+134 silly cache add   rawSpec: '^1.6.4',
+134 silly cache add   spec: '>=1.6.4 <2.0.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed type-is@>=1.6.4 <2.0.0
+136 verbose addNamed ">=1.6.4 <2.0.0" is a valid semver range for type-is
+137 silly addNameRange { name: 'type-is', range: '>=1.6.4 <2.0.0', hasData: false }
+138 silly mapToRegistry name type-is
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/type-is
+142 verbose addNameRange registry:https://registry.npmjs.org/type-is not in flight; fetching
+143 silly cache add args [ 'xtend@^4.0.0', null ]
+144 verbose cache add spec xtend@^4.0.0
+145 silly cache add parsed spec { raw: 'xtend@^4.0.0',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'xtend',
+145 silly cache add   rawSpec: '^4.0.0',
+145 silly cache add   spec: '>=4.0.0 <5.0.0',
+145 silly cache add   type: 'range' }
+146 silly addNamed xtend@>=4.0.0 <5.0.0
+147 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for xtend
+148 silly addNameRange { name: 'xtend', range: '>=4.0.0 <5.0.0', hasData: false }
+149 silly mapToRegistry name xtend
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/xtend
+153 verbose addNameRange registry:https://registry.npmjs.org/xtend not in flight; fetching
+154 silly cache add args [ 'append-field@^0.1.0', null ]
+155 verbose cache add spec append-field@^0.1.0
+156 silly cache add parsed spec { raw: 'append-field@^0.1.0',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'append-field',
+156 silly cache add   rawSpec: '^0.1.0',
+156 silly cache add   spec: '>=0.1.0 <0.2.0',
+156 silly cache add   type: 'range' }
+157 silly addNamed append-field@>=0.1.0 <0.2.0
+158 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for append-field
+159 silly addNameRange { name: 'append-field', range: '>=0.1.0 <0.2.0', hasData: false }
+160 silly mapToRegistry name append-field
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/append-field
+164 verbose addNameRange registry:https://registry.npmjs.org/append-field not in flight; fetching
+165 verbose request uri https://registry.npmjs.org/busboy
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 1:59:01 PM
+168 http request GET https://registry.npmjs.org/busboy
+169 verbose request uri https://registry.npmjs.org/concat-stream
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 1:59:01 PM
+172 http request GET https://registry.npmjs.org/concat-stream
+173 verbose request uri https://registry.npmjs.org/object-assign
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 1:59:01 PM
+176 http request GET https://registry.npmjs.org/object-assign
+177 verbose request uri https://registry.npmjs.org/append-field
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 1:59:01 PM
+180 http request GET https://registry.npmjs.org/append-field
+181 verbose request uri https://registry.npmjs.org/type-is
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 1:59:01 PM
+184 verbose etag "88S6POY1BYWVY289HKPI8W7YV"
+185 http request GET https://registry.npmjs.org/type-is
+186 verbose request uri https://registry.npmjs.org/xtend
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 1:59:01 PM
+189 verbose etag "144GHFNWHYKUBO35EOCM4S95T"
+190 http request GET https://registry.npmjs.org/xtend
+191 verbose request uri https://registry.npmjs.org/mkdirp
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 1:59:01 PM
+194 verbose etag "4U3R8A8GGQ5WC0NMFHKC8D31Z"
+195 http request GET https://registry.npmjs.org/mkdirp
+196 http 304 https://registry.npmjs.org/xtend
+197 silly get cb [ 304,
+197 silly get   { date: 'Wed, 12 Aug 2015 08:29:02 GMT',
+197 silly get     via: '1.1 varnish',
+197 silly get     'cache-control': 'max-age=60',
+197 silly get     etag: '"144GHFNWHYKUBO35EOCM4S95T"',
+197 silly get     age: '59',
+197 silly get     connection: 'keep-alive',
+197 silly get     'x-served-by': 'cache-sin6924-SIN',
+197 silly get     'x-cache': 'HIT',
+197 silly get     'x-cache-hits': '11',
+197 silly get     'x-timer': 'S1439368142.106713,VS0,VE0',
+197 silly get     vary: 'Accept' } ]
+198 verbose etag https://registry.npmjs.org/xtend from cache
+199 verbose get saving xtend to /Users/user/.npm/registry.npmjs.org/xtend/.cache.json
+200 silly addNameRange number 2 { name: 'xtend', range: '>=4.0.0 <5.0.0', hasData: true }
+201 silly addNameRange versions [ 'xtend',
+201 silly addNameRange   [ '1.0.0',
+201 silly addNameRange     '1.0.1',
+201 silly addNameRange     '1.0.2',
+201 silly addNameRange     '1.0.3',
+201 silly addNameRange     '2.0.1',
+201 silly addNameRange     '2.0.2',
+201 silly addNameRange     '2.0.3',
+201 silly addNameRange     '2.0.4',
+201 silly addNameRange     '2.0.5',
+201 silly addNameRange     '2.0.6',
+201 silly addNameRange     '2.1.1',
+201 silly addNameRange     '2.1.2',
+201 silly addNameRange     '2.2.0',
+201 silly addNameRange     '3.0.0',
+201 silly addNameRange     '4.0.0' ] ]
+202 silly addNamed xtend@4.0.0
+203 verbose addNamed "4.0.0" is a plain semver version for xtend
+204 silly cache afterAdd xtend@4.0.0
+205 verbose afterAdd /Users/user/.npm/xtend/4.0.0/package/package.json not in flight; writing
+206 verbose afterAdd /Users/user/.npm/xtend/4.0.0/package/package.json written
+207 http 200 https://registry.npmjs.org/concat-stream
+208 silly get cb [ 200,
+208 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+208 silly get     etag: '"CSXDY5X9EGJC3B8CX96JGQ3RC"',
+208 silly get     'content-type': 'application/json',
+208 silly get     'cache-control': 'max-age=60',
+208 silly get     'content-length': '37400',
+208 silly get     'accept-ranges': 'bytes',
+208 silly get     date: 'Wed, 12 Aug 2015 08:29:02 GMT',
+208 silly get     via: '1.1 varnish',
+208 silly get     age: '31',
+208 silly get     connection: 'keep-alive',
+208 silly get     'x-served-by': 'cache-sin6926-SIN',
+208 silly get     'x-cache': 'HIT',
+208 silly get     'x-cache-hits': '2',
+208 silly get     'x-timer': 'S1439368142.097296,VS0,VE0',
+208 silly get     vary: 'Accept' } ]
+209 verbose get saving concat-stream to /Users/user/.npm/registry.npmjs.org/concat-stream/.cache.json
+210 silly addNameRange number 2 { name: 'concat-stream', range: '>=1.5.0 <2.0.0', hasData: true }
+211 silly addNameRange versions [ 'concat-stream',
+211 silly addNameRange   [ '0.0.1',
+211 silly addNameRange     '0.0.2',
+211 silly addNameRange     '0.0.3',
+211 silly addNameRange     '0.0.4',
+211 silly addNameRange     '0.0.5',
+211 silly addNameRange     '0.0.6',
+211 silly addNameRange     '0.0.7',
+211 silly addNameRange     '0.0.8',
+211 silly addNameRange     '0.0.9',
+211 silly addNameRange     '0.1.0',
+211 silly addNameRange     '0.1.1',
+211 silly addNameRange     '1.0.0',
+211 silly addNameRange     '1.0.1',
+211 silly addNameRange     '1.1.0',
+211 silly addNameRange     '1.2.0',
+211 silly addNameRange     '1.2.1',
+211 silly addNameRange     '1.3.0',
+211 silly addNameRange     '1.3.1',
+211 silly addNameRange     '1.4.0',
+211 silly addNameRange     '1.4.1',
+211 silly addNameRange     '1.4.2',
+211 silly addNameRange     '1.4.3',
+211 silly addNameRange     '1.4.4',
+211 silly addNameRange     '1.4.5',
+211 silly addNameRange     '1.4.6',
+211 silly addNameRange     '1.4.7',
+211 silly addNameRange     '1.4.8',
+211 silly addNameRange     '1.4.10',
+211 silly addNameRange     '1.5.0' ] ]
+212 silly addNamed concat-stream@1.5.0
+213 verbose addNamed "1.5.0" is a plain semver version for concat-stream
+214 silly mapToRegistry name concat-stream
+215 silly mapToRegistry using default registry
+216 silly mapToRegistry registry https://registry.npmjs.org/
+217 silly mapToRegistry uri https://registry.npmjs.org/concat-stream
+218 verbose addRemoteTarball https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.0.tgz not in flight; adding
+219 verbose addRemoteTarball [ 'https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.0.tgz',
+219 verbose addRemoteTarball   '53f7d43c51c5e43f81c8fdd03321c631be68d611' ]
+220 info retry fetch attempt 1 at 1:59:02 PM
+221 info attempt registry request try #1 at 1:59:02 PM
+222 http fetch GET https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.0.tgz
+223 http 304 https://registry.npmjs.org/type-is
+224 silly get cb [ 304,
+224 silly get   { date: 'Wed, 12 Aug 2015 08:29:02 GMT',
+224 silly get     via: '1.1 varnish',
+224 silly get     'cache-control': 'max-age=60',
+224 silly get     etag: '"88S6POY1BYWVY289HKPI8W7YV"',
+224 silly get     age: '47',
+224 silly get     connection: 'keep-alive',
+224 silly get     'x-served-by': 'cache-sin6920-SIN',
+224 silly get     'x-cache': 'HIT',
+224 silly get     'x-cache-hits': '3',
+224 silly get     'x-timer': 'S1439368142.439847,VS0,VE0',
+224 silly get     vary: 'Accept' } ]
+225 verbose etag https://registry.npmjs.org/type-is from cache
+226 verbose get saving type-is to /Users/user/.npm/registry.npmjs.org/type-is/.cache.json
+227 silly addNameRange number 2 { name: 'type-is', range: '>=1.6.4 <2.0.0', hasData: true }
+228 silly addNameRange versions [ 'type-is',
+228 silly addNameRange   [ '1.0.0',
+228 silly addNameRange     '1.0.1',
+228 silly addNameRange     '1.1.0',
+228 silly addNameRange     '1.2.0',
+228 silly addNameRange     '1.2.1',
+228 silly addNameRange     '1.2.2',
+228 silly addNameRange     '1.3.0',
+228 silly addNameRange     '1.3.1',
+228 silly addNameRange     '1.3.2',
+228 silly addNameRange     '1.4.0',
+228 silly addNameRange     '1.5.0',
+228 silly addNameRange     '1.5.1',
+228 silly addNameRange     '1.5.2',
+228 silly addNameRange     '1.5.3',
+228 silly addNameRange     '1.5.4',
+228 silly addNameRange     '1.5.5',
+228 silly addNameRange     '1.5.6',
+228 silly addNameRange     '1.5.7',
+228 silly addNameRange     '1.6.0',
+228 silly addNameRange     '1.6.1',
+228 silly addNameRange     '1.6.2',
+228 silly addNameRange     '1.6.3',
+228 silly addNameRange     '1.6.4',
+228 silly addNameRange     '1.6.5',
+228 silly addNameRange     '1.6.6' ] ]
+229 silly addNamed type-is@1.6.6
+230 verbose addNamed "1.6.6" is a plain semver version for type-is
+231 silly cache afterAdd type-is@1.6.6
+232 verbose afterAdd /Users/user/.npm/type-is/1.6.6/package/package.json not in flight; writing
+233 verbose afterAdd /Users/user/.npm/type-is/1.6.6/package/package.json written
+234 http 200 https://registry.npmjs.org/object-assign
+235 silly get cb [ 200,
+235 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+235 silly get     etag: '"DTB98KQTG14YAJLINTYIMKOVV"',
+235 silly get     'content-type': 'application/json',
+235 silly get     'cache-control': 'max-age=60',
+235 silly get     'content-length': '17127',
+235 silly get     'accept-ranges': 'bytes',
+235 silly get     date: 'Wed, 12 Aug 2015 08:29:02 GMT',
+235 silly get     via: '1.1 varnish',
+235 silly get     age: '24',
+235 silly get     connection: 'keep-alive',
+235 silly get     'x-served-by': 'cache-sin6927-SIN',
+235 silly get     'x-cache': 'HIT',
+235 silly get     'x-cache-hits': '1',
+235 silly get     'x-timer': 'S1439368142.428994,VS0,VE0',
+235 silly get     vary: 'Accept' } ]
+236 verbose get saving object-assign to /Users/user/.npm/registry.npmjs.org/object-assign/.cache.json
+237 silly addNameRange number 2 { name: 'object-assign', range: '>=3.0.0 <4.0.0', hasData: true }
+238 silly addNameRange versions [ 'object-assign',
+238 silly addNameRange   [ '0.1.0',
+238 silly addNameRange     '0.1.1',
+238 silly addNameRange     '0.1.2',
+238 silly addNameRange     '0.2.0',
+238 silly addNameRange     '0.2.1',
+238 silly addNameRange     '0.2.2',
+238 silly addNameRange     '0.3.0',
+238 silly addNameRange     '0.3.1',
+238 silly addNameRange     '0.4.0',
+238 silly addNameRange     '1.0.0',
+238 silly addNameRange     '2.0.0',
+238 silly addNameRange     '3.0.0',
+238 silly addNameRange     '2.1.1' ] ]
+239 silly addNamed object-assign@3.0.0
+240 verbose addNamed "3.0.0" is a plain semver version for object-assign
+241 silly mapToRegistry name object-assign
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+245 verbose addRemoteTarball https://registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz not in flight; adding
+246 verbose addRemoteTarball [ 'https://registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz',
+246 verbose addRemoteTarball   '9bedd5ca0897949bca47e7ff408062d549f587f2' ]
+247 info retry fetch attempt 1 at 1:59:02 PM
+248 info attempt registry request try #1 at 1:59:02 PM
+249 http fetch GET https://registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz
+250 http 200 https://registry.npmjs.org/mkdirp
+251 silly get cb [ 200,
+251 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+251 silly get     etag: '"3S0RKN8WWE613Z2LN0KUKL1DS"',
+251 silly get     'content-type': 'application/json',
+251 silly get     'cache-control': 'max-age=60',
+251 silly get     'content-length': '23094',
+251 silly get     'accept-ranges': 'bytes',
+251 silly get     date: 'Wed, 12 Aug 2015 08:29:02 GMT',
+251 silly get     via: '1.1 varnish',
+251 silly get     age: '50',
+251 silly get     connection: 'keep-alive',
+251 silly get     'x-served-by': 'cache-sin6923-SIN',
+251 silly get     'x-cache': 'HIT',
+251 silly get     'x-cache-hits': '2',
+251 silly get     'x-timer': 'S1439368142.441449,VS0,VE0',
+251 silly get     vary: 'Accept' } ]
+252 verbose get saving mkdirp to /Users/user/.npm/registry.npmjs.org/mkdirp/.cache.json
+253 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: true }
+254 silly addNameRange versions [ 'mkdirp',
+254 silly addNameRange   [ '0.0.1',
+254 silly addNameRange     '0.0.2',
+254 silly addNameRange     '0.0.3',
+254 silly addNameRange     '0.0.4',
+254 silly addNameRange     '0.0.5',
+254 silly addNameRange     '0.0.6',
+254 silly addNameRange     '0.0.7',
+254 silly addNameRange     '0.1.0',
+254 silly addNameRange     '0.2.0',
+254 silly addNameRange     '0.2.1',
+254 silly addNameRange     '0.2.2',
+254 silly addNameRange     '0.3.0',
+254 silly addNameRange     '0.3.1',
+254 silly addNameRange     '0.3.2',
+254 silly addNameRange     '0.3.3',
+254 silly addNameRange     '0.3.4',
+254 silly addNameRange     '0.3.5',
+254 silly addNameRange     '0.4.0',
+254 silly addNameRange     '0.4.1',
+254 silly addNameRange     '0.4.2',
+254 silly addNameRange     '0.5.0',
+254 silly addNameRange     '0.5.1' ] ]
+255 silly addNamed mkdirp@0.5.1
+256 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+257 http fetch 200 https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.0.tgz
+258 silly fetchAndShaCheck shasum 53f7d43c51c5e43f81c8fdd03321c631be68d611
+259 verbose addTmpTarball /var/folders/f3/nkkz5jys48j01n7n91rlf4bw0000gp/T/npm-24594-e8a65fc9/registry.npmjs.org/concat-stream/-/concat-stream-1.5.0.tgz not in flight; adding
+260 verbose addTmpTarball already have metadata; skipping unpack for concat-stream@1.5.0
+261 silly cache afterAdd mkdirp@0.5.1
+262 verbose afterAdd /Users/user/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+263 verbose afterAdd /Users/user/.npm/mkdirp/0.5.1/package/package.json written
+264 silly cache afterAdd concat-stream@1.5.0
+265 verbose afterAdd /Users/user/.npm/concat-stream/1.5.0/package/package.json not in flight; writing
+266 verbose afterAdd /Users/user/.npm/concat-stream/1.5.0/package/package.json written
+267 http 200 https://registry.npmjs.org/append-field
+268 silly get cb [ 200,
+268 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+268 silly get     etag: '"1YA2M8ML0F5TQZELQKKJ9TXDG"',
+268 silly get     'content-type': 'application/json',
+268 silly get     'cache-control': 'max-age=60',
+268 silly get     'content-length': '3160',
+268 silly get     'accept-ranges': 'bytes',
+268 silly get     date: 'Wed, 12 Aug 2015 08:29:02 GMT',
+268 silly get     via: '1.1 varnish',
+268 silly get     age: '0',
+268 silly get     connection: 'keep-alive',
+268 silly get     'x-served-by': 'cache-sin6924-SIN',
+268 silly get     'x-cache': 'MISS',
+268 silly get     'x-cache-hits': '0',
+268 silly get     'x-timer': 'S1439368142.101478,VS0,VE841',
+268 silly get     vary: 'Accept' } ]
+269 verbose get saving append-field to /Users/user/.npm/registry.npmjs.org/append-field/.cache.json
+270 silly addNameRange number 2 { name: 'append-field', range: '>=0.1.0 <0.2.0', hasData: true }
+271 silly addNameRange versions [ 'append-field', [ '0.1.0' ] ]
+272 silly addNamed append-field@0.1.0
+273 verbose addNamed "0.1.0" is a plain semver version for append-field
+274 silly mapToRegistry name append-field
+275 silly mapToRegistry using default registry
+276 silly mapToRegistry registry https://registry.npmjs.org/
+277 silly mapToRegistry uri https://registry.npmjs.org/append-field
+278 verbose addRemoteTarball https://registry.npmjs.org/append-field/-/append-field-0.1.0.tgz not in flight; adding
+279 verbose addRemoteTarball [ 'https://registry.npmjs.org/append-field/-/append-field-0.1.0.tgz',
+279 verbose addRemoteTarball   '6ddc58fa083c7bc545d3c5995b2830cc2366d44a' ]
+280 info retry fetch attempt 1 at 1:59:02 PM
+281 info attempt registry request try #1 at 1:59:02 PM
+282 http fetch GET https://registry.npmjs.org/append-field/-/append-field-0.1.0.tgz
+283 http 200 https://registry.npmjs.org/busboy
+284 silly get cb [ 200,
+284 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+284 silly get     etag: '"BBJOSK9302HYBM969ZF1WA7Q9"',
+284 silly get     'content-type': 'application/json',
+284 silly get     'cache-control': 'max-age=60',
+284 silly get     'content-length': '38648',
+284 silly get     'accept-ranges': 'bytes',
+284 silly get     date: 'Wed, 12 Aug 2015 08:29:02 GMT',
+284 silly get     via: '1.1 varnish',
+284 silly get     age: '0',
+284 silly get     connection: 'keep-alive',
+284 silly get     'x-served-by': 'cache-sin6921-SIN',
+284 silly get     'x-cache': 'HIT',
+284 silly get     'x-cache-hits': '1',
+284 silly get     'x-timer': 'S1439368142.428740,VS0,VE269',
+284 silly get     vary: 'Accept' } ]
+285 verbose get saving busboy to /Users/user/.npm/registry.npmjs.org/busboy/.cache.json
+286 silly addNameRange number 2 { name: 'busboy', range: '>=0.2.9 <0.3.0', hasData: true }
+287 silly addNameRange versions [ 'busboy',
+287 silly addNameRange   [ '0.0.1',
+287 silly addNameRange     '0.0.2',
+287 silly addNameRange     '0.0.3',
+287 silly addNameRange     '0.0.4',
+287 silly addNameRange     '0.0.5',
+287 silly addNameRange     '0.0.6',
+287 silly addNameRange     '0.0.7',
+287 silly addNameRange     '0.0.8',
+287 silly addNameRange     '0.0.9',
+287 silly addNameRange     '0.0.10',
+287 silly addNameRange     '0.0.11',
+287 silly addNameRange     '0.0.12',
+287 silly addNameRange     '0.0.13',
+287 silly addNameRange     '0.0.14',
+287 silly addNameRange     '0.0.15',
+287 silly addNameRange     '0.1.0',
+287 silly addNameRange     '0.1.1',
+287 silly addNameRange     '0.2.0',
+287 silly addNameRange     '0.2.1',
+287 silly addNameRange     '0.2.2',
+287 silly addNameRange     '0.2.3',
+287 silly addNameRange     '0.2.4',
+287 silly addNameRange     '0.2.5',
+287 silly addNameRange     '0.2.6',
+287 silly addNameRange     '0.2.7',
+287 silly addNameRange     '0.2.8',
+287 silly addNameRange     '0.2.9' ] ]
+288 silly addNamed busboy@0.2.9
+289 verbose addNamed "0.2.9" is a plain semver version for busboy
+290 silly mapToRegistry name busboy
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry uri https://registry.npmjs.org/busboy
+294 verbose addRemoteTarball https://registry.npmjs.org/busboy/-/busboy-0.2.9.tgz not in flight; adding
+295 verbose addRemoteTarball [ 'https://registry.npmjs.org/busboy/-/busboy-0.2.9.tgz',
+295 verbose addRemoteTarball   'a0a181e78b19dee76974560f55843b09eaea7376' ]
+296 info retry fetch attempt 1 at 1:59:03 PM
+297 info attempt registry request try #1 at 1:59:03 PM
+298 http fetch GET https://registry.npmjs.org/busboy/-/busboy-0.2.9.tgz
+299 http fetch 200 https://registry.npmjs.org/busboy/-/busboy-0.2.9.tgz
+300 http fetch 200 https://registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz
+301 silly fetchAndShaCheck shasum 9bedd5ca0897949bca47e7ff408062d549f587f2
+302 verbose addTmpTarball /var/folders/f3/nkkz5jys48j01n7n91rlf4bw0000gp/T/npm-24594-e8a65fc9/registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz not in flight; adding
+303 verbose addTmpTarball already have metadata; skipping unpack for object-assign@3.0.0
+304 silly cache afterAdd object-assign@3.0.0
+305 verbose afterAdd /Users/user/.npm/object-assign/3.0.0/package/package.json not in flight; writing
+306 verbose afterAdd /Users/user/.npm/object-assign/3.0.0/package/package.json written
+307 silly fetchAndShaCheck shasum a0a181e78b19dee76974560f55843b09eaea7376
+308 verbose addTmpTarball /var/folders/f3/nkkz5jys48j01n7n91rlf4bw0000gp/T/npm-24594-e8a65fc9/registry.npmjs.org/busboy/-/busboy-0.2.9.tgz not in flight; adding
+309 verbose addTmpTarball already have metadata; skipping unpack for busboy@0.2.9
+310 silly cache afterAdd busboy@0.2.9
+311 verbose afterAdd /Users/user/.npm/busboy/0.2.9/package/package.json not in flight; writing
+312 verbose afterAdd /Users/user/.npm/busboy/0.2.9/package/package.json written
+313 http fetch 200 https://registry.npmjs.org/append-field/-/append-field-0.1.0.tgz
+314 silly fetchAndShaCheck shasum 6ddc58fa083c7bc545d3c5995b2830cc2366d44a
+315 verbose addTmpTarball /var/folders/f3/nkkz5jys48j01n7n91rlf4bw0000gp/T/npm-24594-e8a65fc9/registry.npmjs.org/append-field/-/append-field-0.1.0.tgz not in flight; adding
+316 verbose addTmpTarball already have metadata; skipping unpack for append-field@0.1.0
+317 silly cache afterAdd append-field@0.1.0
+318 verbose afterAdd /Users/user/.npm/append-field/0.1.0/package/package.json not in flight; writing
+319 verbose afterAdd /Users/user/.npm/append-field/0.1.0/package/package.json written
+320 silly install resolved [ { name: 'xtend',
+320 silly install resolved     version: '4.0.0',
+320 silly install resolved     description: 'extend like a boss',
+320 silly install resolved     keywords: [ 'extend', 'merge', 'options', 'opts', 'object', 'array' ],
+320 silly install resolved     author: { name: 'Raynos', email: 'raynos2@gmail.com' },
+320 silly install resolved     repository: { type: 'git', url: 'git://github.com/Raynos/xtend.git' },
+320 silly install resolved     main: 'immutable',
+320 silly install resolved     scripts: { test: 'node test' },
+320 silly install resolved     dependencies: {},
+320 silly install resolved     devDependencies: { tape: '~1.1.0' },
+320 silly install resolved     homepage: 'https://github.com/Raynos/xtend',
+320 silly install resolved     contributors: [ [Object], [Object] ],
+320 silly install resolved     bugs:
+320 silly install resolved      { url: 'https://github.com/Raynos/xtend/issues',
+320 silly install resolved        email: 'raynos2@gmail.com' },
+320 silly install resolved     licenses: [ [Object] ],
+320 silly install resolved     testling: { files: 'test.js', browsers: [Object] },
+320 silly install resolved     engines: { node: '>=0.4' },
+320 silly install resolved     gitHead: '94a95d76154103290533b2c55ffa0fe4be16bfef',
+320 silly install resolved     _id: 'xtend@4.0.0',
+320 silly install resolved     _shasum: '8bc36ff87aedbe7ce9eaf0bca36b2354a743840f',
+320 silly install resolved     _from: 'xtend@>=4.0.0 <5.0.0',
+320 silly install resolved     _npmVersion: '1.4.15',
+320 silly install resolved     _npmUser: { name: 'raynos', email: 'raynos2@gmail.com' },
+320 silly install resolved     maintainers: [ [Object] ],
+320 silly install resolved     dist:
+320 silly install resolved      { shasum: '8bc36ff87aedbe7ce9eaf0bca36b2354a743840f',
+320 silly install resolved        tarball: 'http://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz' },
+320 silly install resolved     directories: {},
+320 silly install resolved     _resolved: 'https://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz',
+320 silly install resolved     readme: 'ERROR: No README data found!' },
+320 silly install resolved   { name: 'type-is',
+320 silly install resolved     description: 'Infer the content-type of a request.',
+320 silly install resolved     version: '1.6.6',
+320 silly install resolved     contributors: [ [Object], [Object] ],
+320 silly install resolved     license: 'MIT',
+320 silly install resolved     repository:
+320 silly install resolved      { type: 'git',
+320 silly install resolved        url: 'git+https://github.com/jshttp/type-is.git' },
+320 silly install resolved     dependencies: { 'media-typer': '0.3.0', 'mime-types': '~2.1.4' },
+320 silly install resolved     devDependencies: { istanbul: '0.3.17', mocha: '~1.21.5' },
+320 silly install resolved     engines: { node: '>= 0.6' },
+320 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+320 silly install resolved     scripts:
+320 silly install resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+320 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+320 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+320 silly install resolved     keywords: [ 'content', 'type', 'checking' ],
+320 silly install resolved     gitHead: 'f2b12fce6172bf91f771d8898055d6efa0e30422',
+320 silly install resolved     bugs: { url: 'https://github.com/jshttp/type-is/issues' },
+320 silly install resolved     homepage: 'https://github.com/jshttp/type-is',
+320 silly install resolved     _id: 'type-is@1.6.6',
+320 silly install resolved     _shasum: '398799519b62360f55c3cd6c486294531975926c',
+320 silly install resolved     _from: 'type-is@>=1.6.4 <2.0.0',
+320 silly install resolved     _npmVersion: '1.4.28',
+320 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+320 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+320 silly install resolved     dist:
+320 silly install resolved      { shasum: '398799519b62360f55c3cd6c486294531975926c',
+320 silly install resolved        tarball: 'http://registry.npmjs.org/type-is/-/type-is-1.6.6.tgz' },
+320 silly install resolved     directories: {},
+320 silly install resolved     _resolved: 'https://registry.npmjs.org/type-is/-/type-is-1.6.6.tgz',
+320 silly install resolved     readme: 'ERROR: No README data found!' },
+320 silly install resolved   { name: 'mkdirp',
+320 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+320 silly install resolved     version: '0.5.1',
+320 silly install resolved     author:
+320 silly install resolved      { name: 'James Halliday',
+320 silly install resolved        email: 'mail@substack.net',
+320 silly install resolved        url: 'http://substack.net' },
+320 silly install resolved     main: 'index.js',
+320 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+320 silly install resolved     repository:
+320 silly install resolved      { type: 'git',
+320 silly install resolved        url: 'git+https://github.com/substack/node-mkdirp.git' },
+320 silly install resolved     scripts: { test: 'tap test/*.js' },
+320 silly install resolved     dependencies: { minimist: '0.0.8' },
+320 silly install resolved     devDependencies: { tap: '1', 'mock-fs': '2 >=2.7.0' },
+320 silly install resolved     bin: { mkdirp: 'bin/cmd.js' },
+320 silly install resolved     license: 'MIT',
+320 silly install resolved     gitHead: 'd4eff0f06093aed4f387e88e9fc301cb76beedc7',
+320 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+320 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp#readme',
+320 silly install resolved     _id: 'mkdirp@0.5.1',
+320 silly install resolved     _shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+320 silly install resolved     _from: 'mkdirp@>=0.5.1 <0.6.0',
+320 silly install resolved     _npmVersion: '2.9.0',
+320 silly install resolved     _nodeVersion: '2.0.0',
+320 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+320 silly install resolved     dist:
+320 silly install resolved      { shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+320 silly install resolved        tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz' },
+320 silly install resolved     maintainers: [ [Object] ],
+320 silly install resolved     directories: {},
+320 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz',
+320 silly install resolved     readme: 'ERROR: No README data found!' },
+320 silly install resolved   { name: 'concat-stream',
+320 silly install resolved     version: '1.5.0',
+320 silly install resolved     description: 'writable stream that concatenates strings or binary data and calls a callback with the result',
+320 silly install resolved     tags: [ 'stream', 'simple', 'util', 'utility' ],
+320 silly install resolved     author: { name: 'Max Ogden', email: 'max@maxogden.com' },
+320 silly install resolved     repository:
+320 silly install resolved      { type: 'git',
+320 silly install resolved        url: 'git+ssh://git@github.com/maxogden/concat-stream.git' },
+320 silly install resolved     bugs: { url: 'http://github.com/maxogden/concat-stream/issues' },
+320 silly install resolved     engines: [ 'node >= 0.8' ],
+320 silly install resolved     main: 'index.js',
+320 silly install resolved     files: [ 'index.js' ],
+320 silly install resolved     scripts: { test: 'tape test/*.js test/server/*.js' },
+320 silly install resolved     license: 'MIT',
+320 silly install resolved     dependencies:
+320 silly install resolved      { inherits: '~2.0.1',
+320 silly install resolved        typedarray: '~0.0.5',
+320 silly install resolved        'readable-stream': '~2.0.0' },
+320 silly install resolved     devDependencies: { tape: '~2.3.2' },
+320 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+320 silly install resolved     gitHead: '7cb37c8ddc0fd2ea03c104d07d44d84b83a31185',
+320 silly install resolved     homepage: 'https://github.com/maxogden/concat-stream#readme',
+320 silly install resolved     _id: 'concat-stream@1.5.0',
+320 silly install resolved     _shasum: '53f7d43c51c5e43f81c8fdd03321c631be68d611',
+320 silly install resolved     _from: 'concat-stream@>=1.5.0 <2.0.0',
+320 silly install resolved     _npmVersion: '2.9.0',
+320 silly install resolved     _nodeVersion: '1.8.2',
+320 silly install resolved     _npmUser: { name: 'maxogden', email: 'max@maxogden.com' },
+320 silly install resolved     maintainers: [ [Object] ],
+320 silly install resolved     dist:
+320 silly install resolved      { shasum: '53f7d43c51c5e43f81c8fdd03321c631be68d611',
+320 silly install resolved        tarball: 'http://registry.npmjs.org/concat-stream/-/concat-stream-1.5.0.tgz' },
+320 silly install resolved     directories: {},
+320 silly install resolved     _resolved: 'https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.0.tgz' },
+320 silly install resolved   { name: 'object-assign',
+320 silly install resolved     version: '3.0.0',
+320 silly install resolved     description: 'ES6 Object.assign() ponyfill',
+320 silly install resolved     license: 'MIT',
+320 silly install resolved     repository:
+320 silly install resolved      { type: 'git',
+320 silly install resolved        url: 'https://github.com/sindresorhus/object-assign' },
+320 silly install resolved     author:
+320 silly install resolved      { name: 'Sindre Sorhus',
+320 silly install resolved        email: 'sindresorhus@gmail.com',
+320 silly install resolved        url: 'http://sindresorhus.com' },
+320 silly install resolved     engines: { node: '>=0.10.0' },
+320 silly install resolved     scripts: { test: 'mocha' },
+320 silly install resolved     files: [ 'index.js' ],
+320 silly install resolved     keywords:
+320 silly install resolved      [ 'object',
+320 silly install resolved        'assign',
+320 silly install resolved        'extend',
+320 silly install resolved        'properties',
+320 silly install resolved        'es6',
+320 silly install resolved        'ecmascript',
+320 silly install resolved        'harmony',
+320 silly install resolved        'ponyfill',
+320 silly install resolved        'prollyfill',
+320 silly install resolved        'polyfill',
+320 silly install resolved        'shim',
+320 silly install resolved        'browser' ],
+320 silly install resolved     devDependencies: { mocha: '*' },
+320 silly install resolved     gitHead: '02622dcb0d82bd81a071ed0b04fedf5e5eea7059',
+320 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+320 silly install resolved     homepage: 'https://github.com/sindresorhus/object-assign',
+320 silly install resolved     _id: 'object-assign@3.0.0',
+320 silly install resolved     _shasum: '9bedd5ca0897949bca47e7ff408062d549f587f2',
+320 silly install resolved     _from: 'object-assign@>=3.0.0 <4.0.0',
+320 silly install resolved     _npmVersion: '2.10.1',
+320 silly install resolved     _nodeVersion: '0.12.4',
+320 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+320 silly install resolved     dist:
+320 silly install resolved      { shasum: '9bedd5ca0897949bca47e7ff408062d549f587f2',
+320 silly install resolved        tarball: 'http://registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz' },
+320 silly install resolved     maintainers: [ [Object] ],
+320 silly install resolved     directories: {},
+320 silly install resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz' },
+320 silly install resolved   { name: 'busboy',
+320 silly install resolved     version: '0.2.9',
+320 silly install resolved     author: { name: 'Brian White', email: 'mscdex@mscdex.net' },
+320 silly install resolved     description: 'A streaming parser for HTML form data for node.js',
+320 silly install resolved     main: './lib/main',
+320 silly install resolved     dependencies: { dicer: '0.2.3', 'readable-stream': '1.1.x' },
+320 silly install resolved     scripts: { test: 'node test/test.js' },
+320 silly install resolved     engines: { node: '>=0.8.0' },
+320 silly install resolved     keywords: [ 'uploads', 'forms', 'multipart', 'form-data' ],
+320 silly install resolved     licenses: [ [Object] ],
+320 silly install resolved     repository: { type: 'git', url: 'http://github.com/mscdex/busboy.git' },
+320 silly install resolved     bugs: { url: 'https://github.com/mscdex/busboy/issues' },
+320 silly install resolved     homepage: 'https://github.com/mscdex/busboy',
+320 silly install resolved     _id: 'busboy@0.2.9',
+320 silly install resolved     _shasum: 'a0a181e78b19dee76974560f55843b09eaea7376',
+320 silly install resolved     _from: 'busboy@>=0.2.9 <0.3.0',
+320 silly install resolved     _resolved: 'https://registry.npmjs.org/busboy/-/busboy-0.2.9.tgz',
+320 silly install resolved     _npmVersion: '1.4.21',
+320 silly install resolved     _npmUser: { name: 'mscdex', email: 'mscdex@mscdex.net' },
+320 silly install resolved     maintainers: [ [Object] ],
+320 silly install resolved     dist:
+320 silly install resolved      { shasum: 'a0a181e78b19dee76974560f55843b09eaea7376',
+320 silly install resolved        tarball: 'http://registry.npmjs.org/busboy/-/busboy-0.2.9.tgz' },
+320 silly install resolved     directories: {} },
+320 silly install resolved   { name: 'append-field',
+320 silly install resolved     version: '0.1.0',
+320 silly install resolved     license: 'MIT',
+320 silly install resolved     author: { name: 'Linus Unnebäck', email: 'linus@folkdatorn.se' },
+320 silly install resolved     main: 'index.js',
+320 silly install resolved     devDependencies:
+320 silly install resolved      { mocha: '^2.2.4',
+320 silly install resolved        standard: '^3.7.2',
+320 silly install resolved        'testdata-w3c-json-form': '^0.2.0' },
+320 silly install resolved     scripts: { test: 'standard && mocha' },
+320 silly install resolved     repository:
+320 silly install resolved      { type: 'git',
+320 silly install resolved        url: 'http://github.com/LinusU/node-append-field.git' },
+320 silly install resolved     gitHead: 'b88c9cc6a37273956843422ca2d384bd55b44b08',
+320 silly install resolved     description: 'A [W3C HTML JSON forms spec](http://www.w3.org/TR/html-json-forms/) compliant field appender (for lack of a better name). Useful for people implementing `application/x-www-form-urlencoded` and `multipart/form-data` parsers.',
+320 silly install resolved     bugs: { url: 'https://github.com/LinusU/node-append-field/issues' },
+320 silly install resolved     homepage: 'https://github.com/LinusU/node-append-field',
+320 silly install resolved     _id: 'append-field@0.1.0',
+320 silly install resolved     _shasum: '6ddc58fa083c7bc545d3c5995b2830cc2366d44a',
+320 silly install resolved     _from: 'append-field@>=0.1.0 <0.2.0',
+320 silly install resolved     _npmVersion: '2.7.5',
+320 silly install resolved     _nodeVersion: '0.12.2',
+320 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+320 silly install resolved     maintainers: [ [Object] ],
+320 silly install resolved     dist:
+320 silly install resolved      { shasum: '6ddc58fa083c7bc545d3c5995b2830cc2366d44a',
+320 silly install resolved        tarball: 'http://registry.npmjs.org/append-field/-/append-field-0.1.0.tgz' },
+320 silly install resolved     directories: {},
+320 silly install resolved     _resolved: 'https://registry.npmjs.org/append-field/-/append-field-0.1.0.tgz' } ]
+321 info install xtend@4.0.0 into /Users/user/Addressbook/app/backend/node_modules/multer
+322 info install type-is@1.6.6 into /Users/user/Addressbook/app/backend/node_modules/multer
+323 info install mkdirp@0.5.1 into /Users/user/Addressbook/app/backend/node_modules/multer
+324 info install concat-stream@1.5.0 into /Users/user/Addressbook/app/backend/node_modules/multer
+325 info install object-assign@3.0.0 into /Users/user/Addressbook/app/backend/node_modules/multer
+326 info install busboy@0.2.9 into /Users/user/Addressbook/app/backend/node_modules/multer
+327 info install append-field@0.1.0 into /Users/user/Addressbook/app/backend/node_modules/multer
+328 info installOne xtend@4.0.0
+329 verbose installOne of xtend to /Users/user/Addressbook/app/backend/node_modules/multer not in flight; installing
+330 info installOne type-is@1.6.6
+331 verbose installOne of type-is to /Users/user/Addressbook/app/backend/node_modules/multer not in flight; installing
+332 info installOne mkdirp@0.5.1
+333 verbose installOne of mkdirp to /Users/user/Addressbook/app/backend/node_modules/multer not in flight; installing
+334 info installOne concat-stream@1.5.0
+335 verbose installOne of concat-stream to /Users/user/Addressbook/app/backend/node_modules/multer not in flight; installing
+336 info installOne object-assign@3.0.0
+337 verbose installOne of object-assign to /Users/user/Addressbook/app/backend/node_modules/multer not in flight; installing
+338 info installOne busboy@0.2.9
+339 verbose installOne of busboy to /Users/user/Addressbook/app/backend/node_modules/multer not in flight; installing
+340 info installOne append-field@0.1.0
+341 verbose installOne of append-field to /Users/user/Addressbook/app/backend/node_modules/multer not in flight; installing
+342 verbose lock using /Users/user/.npm/_locks/xtend-db92e8efbd0e1b51.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+343 verbose lock using /Users/user/.npm/_locks/type-is-7231393d4cf8f879.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is
+344 verbose lock using /Users/user/.npm/_locks/mkdirp-d09a0141abc1bafc.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp
+345 verbose lock using /Users/user/.npm/_locks/concat-stream-e46e754c694b5837.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream
+346 verbose lock using /Users/user/.npm/_locks/object-assign-9a8fb50a9a735719.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+347 verbose lock using /Users/user/.npm/_locks/busboy-48edd51371924ac7.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy
+348 silly install write writing xtend 4.0.0 to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+349 silly install write writing type-is 1.6.6 to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is
+350 verbose lock using /Users/user/.npm/_locks/append-field-0747a6ed3ac1b2e3.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+351 silly install write writing mkdirp 0.5.1 to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp
+352 silly install write writing concat-stream 1.5.0 to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream
+353 silly install write writing object-assign 3.0.0 to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+354 silly install write writing busboy 0.2.9 to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy
+355 silly install write writing append-field 0.1.0 to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+356 verbose unbuild node_modules/multer/node_modules/xtend
+357 verbose unbuild node_modules/multer/node_modules/type-is
+358 verbose unbuild node_modules/multer/node_modules/concat-stream
+359 verbose unbuild node_modules/multer/node_modules/object-assign
+360 verbose unbuild node_modules/multer/node_modules/busboy
+361 verbose unbuild node_modules/multer/node_modules/append-field
+362 verbose unbuild node_modules/multer/node_modules/mkdirp
+363 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend is being purged from base /Users/user/Addressbook/app/backend
+364 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+365 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is is being purged from base /Users/user/Addressbook/app/backend
+366 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is
+367 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream is being purged from base /Users/user/Addressbook/app/backend
+368 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream
+369 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign is being purged from base /Users/user/Addressbook/app/backend
+370 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+371 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy is being purged from base /Users/user/Addressbook/app/backend
+372 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy
+373 verbose tar unpack /Users/user/.npm/xtend/4.0.0/package.tgz
+374 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+375 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend is being purged
+376 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+377 verbose tar unpack /Users/user/.npm/type-is/1.6.6/package.tgz
+378 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is
+379 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is is being purged
+380 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is
+381 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field is being purged from base /Users/user/Addressbook/app/backend
+382 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+383 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp is being purged from base /Users/user/Addressbook/app/backend
+384 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp
+385 verbose tar unpack /Users/user/.npm/concat-stream/1.5.0/package.tgz
+386 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream
+387 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream is being purged
+388 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream
+389 verbose tar unpack /Users/user/.npm/object-assign/3.0.0/package.tgz
+390 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+391 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign is being purged
+392 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+393 verbose tar unpack /Users/user/.npm/busboy/0.2.9/package.tgz
+394 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy
+395 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy is being purged
+396 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy
+397 silly gunzTarPerm modes [ '755', '644' ]
+398 silly gunzTarPerm modes [ '755', '644' ]
+399 verbose tar unpack /Users/user/.npm/append-field/0.1.0/package.tgz
+400 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+401 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field is being purged
+402 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+403 verbose tar unpack /Users/user/.npm/mkdirp/0.5.1/package.tgz
+404 verbose tar unpacking to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp
+405 silly gentlyRm /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp is being purged
+406 verbose gentlyRm don't care about contents; nuking /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp
+407 silly gunzTarPerm modes [ '755', '644' ]
+408 silly gunzTarPerm modes [ '755', '644' ]
+409 silly gunzTarPerm modes [ '755', '644' ]
+410 silly gunzTarPerm modes [ '755', '644' ]
+411 silly gunzTarPerm modes [ '755', '644' ]
+412 silly gunzTarPerm extractEntry package.json
+413 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+414 silly gunzTarPerm extractEntry package.json
+415 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+416 silly gunzTarPerm extractEntry package.json
+417 silly gunzTarPerm extractEntry package.json
+418 silly gunzTarPerm extractEntry
+419 silly gunzTarPerm modified mode [ '', 509, 493 ]
+420 silly gunzTarPerm extractEntry package.json
+421 silly gunzTarPerm extractEntry package.json
+422 silly gunzTarPerm extractEntry README.md
+423 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+424 silly gunzTarPerm extractEntry LICENSE
+425 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+426 silly gunzTarPerm extractEntry .npmignore
+427 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+428 silly gunzTarPerm extractEntry README.md
+429 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+430 silly gunzTarPerm extractEntry LICENSE
+431 silly gunzTarPerm extractEntry index.js
+432 silly gunzTarPerm extractEntry index.js
+433 silly gunzTarPerm extractEntry license
+434 silly gunzTarPerm extractEntry .npmignore
+435 silly gunzTarPerm extractEntry README.md
+436 silly gunzTarPerm extractEntry LICENSE
+437 silly gunzTarPerm extractEntry index.js
+438 silly gunzTarPerm extractEntry LICENSE
+439 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+440 silly gunzTarPerm extractEntry README.md
+441 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+442 silly gunzTarPerm extractEntry deps/
+443 silly gunzTarPerm modified mode [ 'deps/', 509, 493 ]
+444 silly gunzTarPerm extractEntry deps/encoding/
+445 silly gunzTarPerm modified mode [ 'deps/encoding/', 509, 493 ]
+446 silly gunzTarPerm extractEntry deps/encoding/encoding-indexes.js
+447 silly gunzTarPerm modified mode [ 'deps/encoding/encoding-indexes.js', 436, 420 ]
+448 silly gunzTarPerm extractEntry index.js
+449 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+450 silly gunzTarPerm extractEntry HISTORY.md
+451 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+452 silly gunzTarPerm extractEntry LICENSE
+453 silly gunzTarPerm extractEntry index.js
+454 silly gunzTarPerm extractEntry readme.md
+455 silly gunzTarPerm extractEntry LICENCE
+456 silly gunzTarPerm modified mode [ 'LICENCE', 436, 420 ]
+457 silly gunzTarPerm extractEntry immutable.js
+458 silly gunzTarPerm modified mode [ 'immutable.js', 436, 420 ]
+459 silly gunzTarPerm extractEntry .travis.yml
+460 silly gunzTarPerm extractEntry bin/cmd.js
+461 silly gunzTarPerm extractEntry readme.md
+462 silly gunzTarPerm extractEntry lib/parse-path.js
+463 silly gunzTarPerm extractEntry lib/set-value.js
+464 silly gunzTarPerm extractEntry mutable.js
+465 silly gunzTarPerm modified mode [ 'mutable.js', 436, 420 ]
+466 silly gunzTarPerm extractEntry test.js
+467 silly gunzTarPerm modified mode [ 'test.js', 436, 420 ]
+468 silly gunzTarPerm extractEntry bin/usage.txt
+469 silly gunzTarPerm extractEntry examples/pow.js
+470 silly gunzTarPerm extractEntry test/forms.js
+471 silly gunzTarPerm extractEntry .jshintrc
+472 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+473 silly gunzTarPerm extractEntry Makefile
+474 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+475 silly gunzTarPerm extractEntry readme.markdown
+476 silly gunzTarPerm extractEntry test/chmod.js
+477 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+478 silly gunzTarPerm extractEntry deps/encoding/encoding.js
+479 silly gunzTarPerm modified mode [ 'deps/encoding/encoding.js', 436, 420 ]
+480 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign/package.json
+481 info preinstall object-assign@3.0.0
+482 silly gunzTarPerm extractEntry test/perm.js
+483 silly gunzTarPerm extractEntry test/perm_sync.js
+484 silly gunzTarPerm extractEntry lib/
+485 silly gunzTarPerm modified mode [ 'lib/', 509, 493 ]
+486 silly gunzTarPerm extractEntry lib/main.js
+487 silly gunzTarPerm modified mode [ 'lib/main.js', 436, 420 ]
+488 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign/package.json
+489 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream/package.json
+490 info preinstall concat-stream@1.5.0
+491 silly gunzTarPerm extractEntry test/opts_fs.js
+492 silly gunzTarPerm extractEntry test/rel.js
+493 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream/package.json
+494 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign/package.json
+495 silly gunzTarPerm extractEntry test/return.js
+496 silly gunzTarPerm extractEntry test/return_sync.js
+497 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is/package.json
+498 silly prepareForInstallMany adding inherits@~2.0.1 from concat-stream dependencies
+499 silly prepareForInstallMany adding typedarray@~0.0.5 from concat-stream dependencies
+500 silly prepareForInstallMany adding readable-stream@~2.0.0 from concat-stream dependencies
+501 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/concat-stream/package.json
+502 silly install resolved []
+503 verbose about to build /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+504 info build /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+505 info preinstall type-is@1.6.6
+506 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is/package.json
+507 silly gunzTarPerm extractEntry test/root.js
+508 silly gunzTarPerm extractEntry test/sync.js
+509 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field/package.json
+510 silly prepareForInstallMany adding media-typer@0.3.0 from type-is dependencies
+511 silly prepareForInstallMany adding mime-types@~2.1.4 from type-is dependencies
+512 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/type-is/package.json
+513 info linkStuff object-assign@3.0.0
+514 silly linkStuff object-assign@3.0.0 has /Users/user/Addressbook/app/backend/node_modules/multer/node_modules as its parent node_modules
+515 silly gunzTarPerm extractEntry lib/types/
+516 silly gunzTarPerm modified mode [ 'lib/types/', 509, 493 ]
+517 silly cache add args [ 'inherits@~2.0.1', null ]
+518 verbose cache add spec inherits@~2.0.1
+519 silly cache add parsed spec { raw: 'inherits@~2.0.1',
+519 silly cache add   scope: null,
+519 silly cache add   name: 'inherits',
+519 silly cache add   rawSpec: '~2.0.1',
+519 silly cache add   spec: '>=2.0.1 <2.1.0',
+519 silly cache add   type: 'range' }
+520 silly addNamed inherits@>=2.0.1 <2.1.0
+521 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for inherits
+522 silly addNameRange { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: false }
+523 silly mapToRegistry name inherits
+524 silly mapToRegistry using default registry
+525 silly mapToRegistry registry https://registry.npmjs.org/
+526 silly mapToRegistry uri https://registry.npmjs.org/inherits
+527 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+528 silly cache add args [ 'typedarray@~0.0.5', null ]
+529 verbose cache add spec typedarray@~0.0.5
+530 silly cache add parsed spec { raw: 'typedarray@~0.0.5',
+530 silly cache add   scope: null,
+530 silly cache add   name: 'typedarray',
+530 silly cache add   rawSpec: '~0.0.5',
+530 silly cache add   spec: '>=0.0.5 <0.1.0',
+530 silly cache add   type: 'range' }
+531 silly addNamed typedarray@>=0.0.5 <0.1.0
+532 verbose addNamed ">=0.0.5 <0.1.0" is a valid semver range for typedarray
+533 silly addNameRange { name: 'typedarray', range: '>=0.0.5 <0.1.0', hasData: false }
+534 silly mapToRegistry name typedarray
+535 silly mapToRegistry using default registry
+536 silly mapToRegistry registry https://registry.npmjs.org/
+537 silly mapToRegistry uri https://registry.npmjs.org/typedarray
+538 verbose addNameRange registry:https://registry.npmjs.org/typedarray not in flight; fetching
+539 silly cache add args [ 'readable-stream@~2.0.0', null ]
+540 verbose cache add spec readable-stream@~2.0.0
+541 silly cache add parsed spec { raw: 'readable-stream@~2.0.0',
+541 silly cache add   scope: null,
+541 silly cache add   name: 'readable-stream',
+541 silly cache add   rawSpec: '~2.0.0',
+541 silly cache add   spec: '>=2.0.0 <2.1.0',
+541 silly cache add   type: 'range' }
+542 silly addNamed readable-stream@>=2.0.0 <2.1.0
+543 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for readable-stream
+544 silly addNameRange { name: 'readable-stream',
+544 silly addNameRange   range: '>=2.0.0 <2.1.0',
+544 silly addNameRange   hasData: false }
+545 silly mapToRegistry name readable-stream
+546 silly mapToRegistry using default registry
+547 silly mapToRegistry registry https://registry.npmjs.org/
+548 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+549 verbose addNameRange registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+550 verbose request uri https://registry.npmjs.org/typedarray
+551 verbose request no auth needed
+552 info attempt registry request try #1 at 1:59:04 PM
+553 http request GET https://registry.npmjs.org/typedarray
+554 info preinstall append-field@0.1.0
+555 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field/package.json
+556 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend/package.json
+557 verbose linkBins object-assign@3.0.0
+558 verbose linkMans object-assign@3.0.0
+559 verbose rebuildBundles object-assign@3.0.0
+560 verbose request uri https://registry.npmjs.org/inherits
+561 verbose request no auth needed
+562 info attempt registry request try #1 at 1:59:04 PM
+563 verbose etag "E6JT3DPDFE7U9Q65FC968N4IQ"
+564 http request GET https://registry.npmjs.org/inherits
+565 verbose request uri https://registry.npmjs.org/readable-stream
+566 verbose request no auth needed
+567 info attempt registry request try #1 at 1:59:04 PM
+568 verbose etag "ATS5UC3IPKWZK67IHNRTSSRTY"
+569 http request GET https://registry.npmjs.org/readable-stream
+570 info install object-assign@3.0.0
+571 silly cache add args [ 'media-typer@0.3.0', null ]
+572 verbose cache add spec media-typer@0.3.0
+573 silly cache add parsed spec { raw: 'media-typer@0.3.0',
+573 silly cache add   scope: null,
+573 silly cache add   name: 'media-typer',
+573 silly cache add   rawSpec: '0.3.0',
+573 silly cache add   spec: '0.3.0',
+573 silly cache add   type: 'version' }
+574 silly addNamed media-typer@0.3.0
+575 verbose addNamed "0.3.0" is a plain semver version for media-typer
+576 silly mapToRegistry name media-typer
+577 silly mapToRegistry using default registry
+578 silly mapToRegistry registry https://registry.npmjs.org/
+579 silly mapToRegistry uri https://registry.npmjs.org/media-typer
+580 verbose addNameVersion registry:https://registry.npmjs.org/media-typer not in flight; fetching
+581 silly cache add args [ 'mime-types@~2.1.4', null ]
+582 verbose cache add spec mime-types@~2.1.4
+583 silly cache add parsed spec { raw: 'mime-types@~2.1.4',
+583 silly cache add   scope: null,
+583 silly cache add   name: 'mime-types',
+583 silly cache add   rawSpec: '~2.1.4',
+583 silly cache add   spec: '>=2.1.4 <2.2.0',
+583 silly cache add   type: 'range' }
+584 silly addNamed mime-types@>=2.1.4 <2.2.0
+585 verbose addNamed ">=2.1.4 <2.2.0" is a valid semver range for mime-types
+586 silly addNameRange { name: 'mime-types', range: '>=2.1.4 <2.2.0', hasData: false }
+587 silly mapToRegistry name mime-types
+588 silly mapToRegistry using default registry
+589 silly mapToRegistry registry https://registry.npmjs.org/
+590 silly mapToRegistry uri https://registry.npmjs.org/mime-types
+591 verbose addNameRange registry:https://registry.npmjs.org/mime-types not in flight; fetching
+592 silly gunzTarPerm extractEntry test/mkdirp.js
+593 silly gunzTarPerm extractEntry test/umask.js
+594 info postinstall object-assign@3.0.0
+595 info preinstall xtend@4.0.0
+596 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend/package.json
+597 verbose unlock done using /Users/user/.npm/_locks/object-assign-9a8fb50a9a735719.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/object-assign
+598 verbose request uri https://registry.npmjs.org/media-typer
+599 verbose request no auth needed
+600 info attempt registry request try #1 at 1:59:04 PM
+601 verbose etag "EBBA17SMBE80K6FCTCN6G8KK3"
+602 http request GET https://registry.npmjs.org/media-typer
+603 verbose request uri https://registry.npmjs.org/mime-types
+604 verbose request no auth needed
+605 info attempt registry request try #1 at 1:59:04 PM
+606 verbose etag "8VPE5JWI7UBX81FJ08HTWNKVB"
+607 http request GET https://registry.npmjs.org/mime-types
+608 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field/package.json
+609 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend/package.json
+610 silly gunzTarPerm extractEntry test/clobber.js
+611 silly gunzTarPerm extractEntry test/umask_sync.js
+612 silly install resolved []
+613 verbose about to build /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+614 info build /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+615 silly install resolved []
+616 verbose about to build /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+617 info build /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+618 silly gunzTarPerm extractEntry test/race.js
+619 info linkStuff xtend@4.0.0
+620 silly linkStuff xtend@4.0.0 has /Users/user/Addressbook/app/backend/node_modules/multer/node_modules as its parent node_modules
+621 silly gunzTarPerm extractEntry lib/types/multipart.js
+622 silly gunzTarPerm modified mode [ 'lib/types/multipart.js', 436, 420 ]
+623 verbose linkBins xtend@4.0.0
+624 verbose linkMans xtend@4.0.0
+625 verbose rebuildBundles xtend@4.0.0
+626 info install xtend@4.0.0
+627 info postinstall xtend@4.0.0
+628 info linkStuff append-field@0.1.0
+629 silly linkStuff append-field@0.1.0 has /Users/user/Addressbook/app/backend/node_modules/multer/node_modules as its parent node_modules
+630 verbose unlock done using /Users/user/.npm/_locks/xtend-db92e8efbd0e1b51.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/xtend
+631 verbose linkBins append-field@0.1.0
+632 verbose linkMans append-field@0.1.0
+633 verbose rebuildBundles append-field@0.1.0
+634 info install append-field@0.1.0
+635 info postinstall append-field@0.1.0
+636 verbose unlock done using /Users/user/.npm/_locks/append-field-0747a6ed3ac1b2e3.lock for /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/append-field
+637 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+638 silly gunzTarPerm modified mode [ 'lib/types/urlencoded.js', 436, 420 ]
+639 silly gunzTarPerm extractEntry lib/utils.js
+640 silly gunzTarPerm modified mode [ 'lib/utils.js', 436, 420 ]
+641 silly gunzTarPerm extractEntry package.json
+642 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+643 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp/package.json
+644 info preinstall mkdirp@0.5.1
+645 silly gunzTarPerm extractEntry test/
+646 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+647 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp/package.json
+648 silly prepareForInstallMany adding minimist@0.0.8 from mkdirp dependencies
+649 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/mkdirp/package.json
+650 silly cache add args [ 'minimist@0.0.8', null ]
+651 verbose cache add spec minimist@0.0.8
+652 silly cache add parsed spec { raw: 'minimist@0.0.8',
+652 silly cache add   scope: null,
+652 silly cache add   name: 'minimist',
+652 silly cache add   rawSpec: '0.0.8',
+652 silly cache add   spec: '0.0.8',
+652 silly cache add   type: 'version' }
+653 silly addNamed minimist@0.0.8
+654 verbose addNamed "0.0.8" is a plain semver version for minimist
+655 silly mapToRegistry name minimist
+656 silly mapToRegistry using default registry
+657 silly mapToRegistry registry https://registry.npmjs.org/
+658 silly mapToRegistry uri https://registry.npmjs.org/minimist
+659 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+660 silly gunzTarPerm extractEntry test/test-types-multipart.js
+661 silly gunzTarPerm modified mode [ 'test/test-types-multipart.js', 436, 420 ]
+662 verbose request uri https://registry.npmjs.org/minimist
+663 verbose request no auth needed
+664 info attempt registry request try #1 at 1:59:04 PM
+665 verbose etag "93FZ5FLMJ3I25LRRXXIB1MULS"
+666 http request GET https://registry.npmjs.org/minimist
+667 silly gunzTarPerm extractEntry test/test-types-urlencoded.js
+668 silly gunzTarPerm modified mode [ 'test/test-types-urlencoded.js', 436, 420 ]
+669 silly gunzTarPerm extractEntry test/test-utils-decoder.js
+670 silly gunzTarPerm modified mode [ 'test/test-utils-decoder.js', 436, 420 ]
+671 silly gunzTarPerm extractEntry test/test-utils-parse-params.js
+672 silly gunzTarPerm modified mode [ 'test/test-utils-parse-params.js', 436, 420 ]
+673 silly gunzTarPerm extractEntry test/test.js
+674 silly gunzTarPerm modified mode [ 'test/test.js', 436, 420 ]
+675 verbose write writing to /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy/package.json
+676 info preinstall busboy@0.2.9
+677 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy/package.json
+678 silly prepareForInstallMany adding dicer@0.2.3 from busboy dependencies
+679 silly prepareForInstallMany adding readable-stream@1.1.x from busboy dependencies
+680 verbose readDependencies loading dependencies from /Users/user/Addressbook/app/backend/node_modules/multer/node_modules/busboy/package.json
+681 silly cache add args [ 'dicer@0.2.3', null ]
+682 verbose cache add spec dicer@0.2.3
+683 silly cache add args [ 'readable-stream@1.1.x', null ]
+684 verbose cache add spec readable-stream@1.1.x
+685 silly cache add parsed spec { raw: 'dicer@0.2.3',
+685 silly cache add   scope: null,
+685 silly cache add   name: 'dicer',
+685 silly cache add   rawSpec: '0.2.3',
+685 silly cache add   spec: '0.2.3',
+685 silly cache add   type: 'version' }
+686 silly addNamed dicer@0.2.3
+687 verbose addNamed "0.2.3" is a plain semver version for dicer
+688 silly mapToRegistry name dicer
+689 silly mapToRegistry using default registry
+690 silly mapToRegistry registry https://registry.npmjs.org/
+691 silly mapToRegistry uri https://registry.npmjs.org/dicer
+692 verbose addNameVersion registry:https://registry.npmjs.org/dicer not in flight; fetching
+693 silly cache add parsed spec { raw: 'readable-stream@1.1.x',
+693 silly cache add   scope: null,
+693 silly cache add   name: 'readable-stream',
+693 silly cache add   rawSpec: '1.1.x',
+693 silly cache add   spec: '>=1.1.0 <1.2.0',
+693 silly cache add   type: 'range' }
+694 silly addNamed readable-stream@>=1.1.0 <1.2.0
+695 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for readable-stream
+696 silly addNameRange { name: 'readable-stream',
+696 silly addNameRange   range: '>=1.1.0 <1.2.0',
+696 silly addNameRange   hasData: false }
+697 silly mapToRegistry name readable-stream
+698 silly mapToRegistry using default registry
+699 silly mapToRegistry registry https://registry.npmjs.org/
+700 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+701 verbose addNameRange registry:https://registry.npmjs.org/readable-stream already in flight; waiting
+702 verbose request uri https://registry.npmjs.org/dicer
+703 verbose request no auth needed
+704 info attempt registry request try #1 at 1:59:04 PM
+705 http request GET https://registry.npmjs.org/dicer
+706 http 304 https://registry.npmjs.org/inherits
+707 silly get cb [ 304,
+707 silly get   { date: 'Wed, 12 Aug 2015 08:29:04 GMT',
+707 silly get     via: '1.1 varnish',
+707 silly get     'cache-control': 'max-age=60',
+707 silly get     etag: '"E6JT3DPDFE7U9Q65FC968N4IQ"',
+707 silly get     age: '44',
+707 silly get     connection: 'keep-alive',
+707 silly get     'x-served-by': 'cache-sin6924-SIN',
+707 silly get     'x-cache': 'HIT',
+707 silly get     'x-cache-hits': '10',
+707 silly get     'x-timer': 'S1439368144.591682,VS0,VE0',
+707 silly get     vary: 'Accept' } ]
+708 verbose etag https://registry.npmjs.org/inherits from cache
+709 verbose get saving inherits to /Users/user/.npm/registry.npmjs.org/inherits/.cache.json
+710 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: true }
+711 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+712 silly addNamed inherits@2.0.1
+713 verbose addNamed "2.0.1" is a plain semver version for inherits
+714 silly cache afterAdd inherits@2.0.1
+715 verbose afterAdd /Users/user/.npm/inherits/2.0.1/package/package.json not in flight; writing
+716 verbose afterAdd /Users/user/.npm/inherits/2.0.1/package/package.json written
+717 http 304 https://registry.npmjs.org/media-typer
+718 silly get cb [ 304,
+718 silly get   { date: 'Wed, 12 Aug 2015 08:29:04 GMT',
+718 silly get     via: '1.1 varnish',
+718 silly get     'cache-control': 'max-age=60',
+718 silly get     etag: '"EBBA17SMBE80K6FCTCN6G8KK3"',
+718 silly get     age: '42',
+718 silly get     connection: 'keep-alive',
+718 silly get     'x-served-by': 'cache-sin6927-SIN',
+718 silly get     'x-cache': 'HIT',
+718 silly get     'x-cache-hits': '5',
+718 silly get     'x-timer': 'S1439368144.600193,VS0,VE0',
+718 silly get     vary: 'Accept' } ]
+719 verbose etag https://registry.npmjs.org/media-typer from cache
+720 verbose get saving media-typer to /Users/user/.npm/registry.npmjs.org/media-typer/.cache.json
+721 silly cache afterAdd media-typer@0.3.0
+722 verbose afterAdd /Users/user/.npm/media-typer/0.3.0/package/package.json not in flight; writing
+723 verbose afterAdd /Users/user/.npm/media-typer/0.3.0/package/package.json written
+724 verbose stack Error: read ECONNRESET
+724 verbose stack     at exports._errnoException (util.js:746:11)
+724 verbose stack     at TCP.onread (net.js:559:26)
+725 verbose cwd /Users/user/Addressbook/app/backend
+726 error Darwin 14.4.0
+727 error argv "node" "/usr/local/bin/npm" "install" "multer" "--save"
+728 error node v0.12.7
+729 error npm  v2.11.3
+730 error code ECONNRESET
+731 error errno ECONNRESET
+732 error syscall read
+733 error network read ECONNRESET
+733 error network This is most likely not a problem with npm itself
+733 error network and is related to network connectivity.
+733 error network In most cases you are behind a proxy or have bad network settings.
+733 error network
+733 error network If you are behind a proxy, please make sure that the
+733 error network 'proxy' config is set properly.  See: 'npm help config'
+734 verbose exit [ 1, true ]
